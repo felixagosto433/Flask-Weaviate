@@ -1,0 +1,75 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+.flaskenv
+.python-version
+
+# Data files
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache/
+htmlcov/
+coverage.xml
+
+# Type checkers / linters
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pyre/
+
+# Tooling
+.tox/
+.nox/
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Flask specifics
+instance/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local tooling/config
+**/.pytest_cache/
+**/__pycache__/
+
